@@ -1,31 +1,24 @@
 {
   "1": {
     "0x0000000000000000000000000000000000000000": {
-      "type": "pegged",
+      "type": "fixed",
       "symbol": "ETH",
-      "amount": null,
-      "subunit_to_unit": 1000000000000000000,
-      "pegged_amount": 0.1,
-      "pegged_currency": "eth_gas",
-      "pegged_subunit_to_unit": 1000000000000000000
-    },
-    "0x11B7592274B344A6be0Ace7E5D5dF4348473e2fa": {
-      "type": "fixed",
-      "symbol": "FEE",
-      "amount": 1000000000000000000,
       "subunit_to_unit": 1000000000000000000,
       "pegged_amount": null,
+      "contract_address": "0x0000000000000000000000000000000000000000",
       "pegged_currency": null,
-      "pegged_subunit_to_unit": null
+      "pegged_subunit_to_unit": null,
+      "amount": 75
     },
-    "0x942f123b3587EDe66193aa52CF2bF9264C564F87": {
-      "type": "fixed",
+    "0xb1952c4e36d153a49eccc01a4d93b9ecbabb7208": {
+      "type": "pegged",
       "symbol": "OMG",
-      "amount": 8600000000000000,
       "subunit_to_unit": 1000000000000000000,
-      "pegged_amount": null,
-      "pegged_currency": null,
-      "pegged_subunit_to_unit": null
+      "pegged_amount": 0.33,
+      "pegged_currency": "eth_gas",
+      "contract_address": "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07",
+      "pegged_subunit_to_unit": 1000000000000000000,
+      "amount": null
     }
   }
 }
